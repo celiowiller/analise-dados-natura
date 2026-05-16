@@ -1,0 +1,1 @@
+repositório para compartilhamento de conteúdo do treinamento Natura/Impacta Fundamentos de Analise de Dados com Python
