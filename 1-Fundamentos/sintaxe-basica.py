@@ -113,8 +113,15 @@ abaixo, na sequencia numérica que vamos indicar está descrito os denominados I
 
 print(umaFrase[2:12]) # aqui, estamso fazendo a seleção não só de um valor mas de intervalo de valores - que começa no indice posicional 2 e vai até o indice posicional 10. Este intervalo de valores - subcojunto - é determinado pelo uso do caractere (:) dois pontos - que, em termos simples, quer dizer: "me da este valor que comeca aqui e vai até ali - 2 até 10"
 
+# [..............[ - intervalo semi-aberto: o intervalor semi-aberto determina que: incluir o 1º elemento do conjunto/subconjunto/intervalo e excluir o ultimo elemento; esta exclusão se dá a partir de uma operação matematica bem simples - executada via python core -> [2: 12] (-1) = [2:11]
 
 
-print(umaFrase[:8])
-print(umaFrase[3:])
+print(umaFrase[:8]) # novamente, temos um nvoo "fatiamento" gerando um novo intervalo
+# [..............[ - intervalo semi-aberto: o intervalor semi-aberto determina que: incluir o 1º elemento do conjunto/subconjunto/intervalo e excluir o ultimo elemento; esta exclusão se dá a partir de uma operação matematica bem simples - executada via python core -> [: 8] (-1) = [:7]
+
+print(umaFrase[3:]) # # novamente, temos um nvoo "fatiamento" gerando um novo intervalo
+# nosso novo intervalo inicia-se no indice posicional 3 e vai até o ultmio caractere qeu ocupa o ultimo indice posicional pois não indicamos nenhum "ponto-de-parada" especifico.
+
+
+
 print(umaFrase + ' Muito bom! Que o dia todo seja assim!')
