@@ -58,3 +58,32 @@ print(disciplinas)
 # neste passo, vamos criar uma estrutura de repetição - loop - para iterar sobre todos so valores do dicionario e exibir seus itens
 for r in disciplinas.items():
     print(r)
+
+'''
+           1ª iteração          2ª iteração      3ª iteração    encerramento da repetição
+ r .........................  ...............  ..............   ................ 
+disciplinas = {'Historia': 0, 'Matematica': 0, 'Geografia': 0}
+
+print(r) exibe o valor encontrado pela variavel na 1ª iteração 
+('Historia', 0)
+
+print(r) exibe o valor encontrado pela variavel na 2ª iteração 
+('Matematica', 0)
+
+print(r) exibe o valor encontrado pela variavel na 3ª iteração 
+('Geografia', 0)
+
+
+1º: o código, acima, é uma estrutura de repetição do python - for... in - que exibe todos os valores que forem encontrados o dicionario disciplinas!
+
+2º: a variavel - r - é conhecida com variavel iteradora/auxiliar que irá RASTREAR/ITERAR sobre todos os valores que compõem o conjunto de dados 
+
+3º: a função items() auxiliar na recuperação/rastreamento de todos os valores que compõem o dicionario - é ela que "aponta" quais serão os itens que devem ser rastreados - tudo isso ocorre " por debaixo dos panos" a partir do python core
+items()
+'''
+
+print()
+print('--------------------------------')
+
+for x in d.items():
+    print(x)
