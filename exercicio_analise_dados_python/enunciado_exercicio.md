@@ -1,6 +1,6 @@
 Exercício Prático: Análise, Sanitização e Visualização de Séries Temporais Ambientais
 
-Objetivo General
+Objetivo Geral
 
 Desenvolver uma rotina completa de análise de dados operacionais/ambientais em Python, aplicando técnicas de imputação de dados faltantes, detecção e remoção de outliers, engenharia de atributos temporais, cálculo de médias móveis via convolução e construção de gráficos técnicos para relatórios.
 Ferramentas Permitidas
